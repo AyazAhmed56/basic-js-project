@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    color: white;
+} 
+
+u {
+    color: skyblue;
+}
+
+header {
+    background-color: grey;
+    height: 50px;
+    gap: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+a {
+    font-size: 30px;
+}
+ 
+#tag {
+    text-align: center;
+}
+
+#ptag {
+    text-align: center;
+    color: purple;
+    font-size: 100px;
+}

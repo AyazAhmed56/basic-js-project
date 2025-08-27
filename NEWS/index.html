@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- start write code in body  -->
+    <section class="outer_section">
+      <!-- nav bar -->
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            src="https://img.freepik.com/free-vector/gradient-breaking-news-logo-design_23-2151180705.jpg?t=st=1725215819~exp=1725219419~hmac=059bbf0311cc38cabd6891992a0fa6ebe9d752d04acde061c0ee2182a5dc6b4e&w=996"
+            alt="Logo"
+          />
+        </div>
+        <div class="search-container">
+          <input id="search" type="text" placeholder="Search..." />
+          <button onclick="GetsNews()">Search</button>
+        </div>
+      </nav>
+
+      <div class="main-heading">
+        <h1>My First New Portal Website</h1>
+      </div>
+
+      <section id="news-container" class="outer-section">
+        <div class="news-card">
+          <img
+            class="news-image"
+            src="https://media.wired.com/photos/66ab594d0c0cc4819f595db4/191:100/w_1280,c_limit/073024_Crypto%20get%20rich%20quick.jpg"
+            alt="News Image"
+          />
+          <div class="news-content" id="news-content">
+            <h2 class="news-title">
+              Trump's Crypto Embrace Could Be a Disaster for Bitcoin
+            </h2>
+            <p class="news-description">
+              At the Bitcoin 2024 conference in Nashville, Donald Trump promised
+              the crypto community the moon. They'd better hope they don't get
+              it.
+            </p>
+            <p class="news-meta">
+              By Steven Levy | Published on: August 2, 2024
+            </p>
+            <a
+              class="news-link"
+              href="https://www.wired.com/story/donald-trump-bitcoin-reserve-promises/"
+              target="_blank"
+              >Read Full Article</a
+            >
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body> 
+        <table border="2px" cellspacing="5px">
+            <tr style="height: 50px;">
+                <td colspan="5" id="btn"><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><button id="btn1" onclick="myCalc()">1</button></td>
+                <td><button id="btn2" onclick="myCalc()">2</button></td>
+                <td><button id="btn3" onclick="myCalc()">3</button></td>
+                <td><button id="btn4" onclick="myCalc()">+</button></td>
+                <td rowspan="2" style="width: 10px"><button id="btn5" onclick="myCalc()">=</button></td>
+            </tr>
+            <tr>
+                <td><button id="btn6" onclick="myCalc()">4</button></td>
+                <td><button id="btn7" onclick="myCalc()">5</button></td>
+                <td><button id="btn8" onclick="myCalc()">6</button></td>
+                <td><button id="btn9" onclick="myCalc()">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="btn10" onclick="myCalc()">7</button></td>
+                <td><button id="btn11" onclick="myCalc()">8</button></td>
+                <td><button id="btn12" onclick="myCalc()">9</button></td>
+                <td><button id="btn13" onclick="myCalc()">*</button></td>
+                <td rowspan="2"><button id="btn14" onclick="myCalc()">DEL</button></td>
+            </tr>
+            <tr>
+                <td><button id="btn15" onclick="myCalc()">.</button></td>
+                <td><button id="btn16" onclick="myCalc()">0</button></td>
+                <td><button id="btn17" onclick="myCalc()">00</button></td>
+                <td><button id="btn18" onclick="myCalc()">/</button></td>
+            </tr>
+        </table>
+        <script src="calc.js"></script>
+    </body>
+</html>

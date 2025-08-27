@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2vw;
+}
+
+.search {
+    /* margin: auto; */
+    /* padding: 10px; */
+    display: flex;
+    gap: 0;
+}
+
+input {
+    width: 46%;
+    padding-left: 1vw;
+    margin-left: 15vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+button {
+    padding: 1vw;
+    background-color: gainsboro;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img {
+    height: 50px;
+    width: 150px;
+}
+
+.videos {
+    margin: 2vw;
+    margin-top: 3vw;
+    display: flex;
+    gap: 2vw;
+}
+
+iframe {
+    width: 30vw;
+    height: 20vw;
+    border-radius: 15px;
+}

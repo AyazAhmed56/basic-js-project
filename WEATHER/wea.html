@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvdvonoif-FzxpjOlRaQVShv_CqDoXW3X2g&s" type="image/x-icon">
+    <title>Weather App</title>
+    <link href="wea.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <div class="wea-cotainer">
+      <form class="search">
+        <input placeholder="Enter City Name" type="text" class="input">
+
+        <button class="btn" type="submit">
+          <i class="material-icons">search</i>
+        </button>
+      </form>
+
+      <div class="name">
+        <i class="city">Delhi</i>
+        <p class="date">13 sep 2023</p>
+      </div>
+      
+      <div class="temp">
+        <div class="desc">
+          <i class="material-icons">sunny</i>
+          <span class="desc-text">Sunny</span>
+        </div>
+
+        <div class="degree">
+          <h2>23°C</h2>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="wind">
+          <i class="material-icons">air</i>
+          <div>
+          <h3 class="wind-speed"></h3>
+          <p>Wind Speed</p>
+          </div>
+        </div>
+
+        <div class="humidity">
+          <i class="material-icons">water_drop</i>
+          <div>
+          <h3 class="humidity-percent"></h3>
+          <p>Humidity</p>
+          </div>
+        </div>
+
+        <div class="visibility">
+          <i class="material-icons">visibility</i>
+          <div>
+          <h3 class="visible"></h3>
+          <p>Visibility</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="wea.js"></script>
+</body>
+</html>
